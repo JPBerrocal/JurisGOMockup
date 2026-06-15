@@ -27,7 +27,7 @@ function TrustStrip({ lang }: { lang: string }) {
   return (
     <div
       className="trust-strip"
-      style={{ justifyContent: "absolute", marginTop: 48 }}
+      style={{ justifyContent: "center", marginTop: 48 }}
     >
       {[
         { num: "4.200+", lbl: translate("trust.lawyers") },
